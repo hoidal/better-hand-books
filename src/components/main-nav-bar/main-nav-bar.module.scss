@@ -5,9 +5,8 @@
     display: flex;
     justify-content: space-between;
     padding: 0 15px;
-
     background: black;
-    opacity: .9;
+    opacity: 0.95;
 
     .logoContainer {
         height: 100%;
@@ -23,13 +22,27 @@
         align-items: center;
         justify-content: flex-end;
 
+        font-weight: bold;
+
         .menuItem {
             padding: 10px 15px;
             color: white;
 
+            &:hover {
+                color: grey;
+            }
+
             &.takeAction {
-                color: red;
+                background: red;
+                border-radius: 10px;
+                margin-left: 1rem;
+
+                &:hover {
+                    color: white;
+                    background: blue;
+                }
             }
         }
     }
 }
+
