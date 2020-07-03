@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import logo from '../../assets/bhb-logo.png';
+
 import styles from './main-nav-bar.module.scss';
 
 const MainNavBar = () => (
     <header className={styles.navbar}>
         <Link className={styles.logoContainer} to="/">
-            LOGO
+           <img className={styles.logo} src={logo} alt="logo"></img>
         </Link>
         <div className={styles.menuItems}>
             <Link className={styles.menuItem} to="/">
