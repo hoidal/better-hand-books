@@ -1,26 +1,33 @@
 .navbar {
+    position: fixed;
     height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    padding: 0 15px;
 
-    .logo-container {
+    background: black;
+    opacity: .9;
+
+    .logoContainer {
         height: 100%;
         width: 70px;
+        margin-left: 5rem;
     }
 
-    .menu-items {
+    .menuItems {
         width: 50%;
         height: 100%;
+        margin-right: 5rem;
         display: flex;
         align-items: center;
         justify-content: flex-end;
 
-        .menu-item {
+        .menuItem {
             padding: 10px 15px;
+            color: white;
 
-            &.take-action {
+            &.takeAction {
                 color: red;
             }
         }
