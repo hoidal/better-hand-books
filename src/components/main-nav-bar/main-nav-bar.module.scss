@@ -1,53 +1,63 @@
-.navbar {
-    position: fixed;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px;    
-    opacity: 0.95;
+.headerBackground {
+    height: 4rem;
+    width: 100vw;
+    background: black;
 
-    .logoContainer {
-        height: 100%;
-        width: 10%;
-        margin-left: 3rem;
-
-        .logo {
-            height: 95%;
-        }
-    }
-
-    .menuItems {
-        width: 50%;
-        height: 100%;
-        margin-right: 5rem;
+    .navbar {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        height: 4rem;
+        width: 100%;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: flex-end;
-        
-        font-weight: bold;
+        padding: 0 15px; 
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, .75));
 
-        .menuItem {
-            padding: 10px 15px;
-            color: black;
-            transition: 0.3s;
-
-            &:hover {
-                color: #2A9D8F;
+        .logoContainer {
+            height: 100%;
+            width: 10%;
+            margin-left: 3rem;
+    
+            .logo {
+                height: 95%;
             }
-
-            &.takeAction {
-                color: black;
-                background: red;
-                border-radius: 10px;
-                margin-left: 1rem;
-                transition: .6s;
-
+        }
+    
+        .menuItems {
+            width: 50%;
+            height: 100%;
+            margin-right: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            
+            font-weight: bold;
+    
+            .menuItem {
+                padding: 10px 15px;
+                color: white;
+                transition: 0.3s;
+    
                 &:hover {
-                    background:#E76F51;
+                    color: #2A9D8F;
+                }
+    
+                &.takeAction {
+                    background: red;
+                    border-radius: 10px;
+                    margin-left: 1rem;
+                    transition: .6s;
+    
+                    &:hover {
+                        color: white;
+                        transform: scale(1.1);
+                    }
                 }
             }
         }
     }
 }
+
 

@@ -1,4 +1,14 @@
 .homePage {
-    height: 110vh;
-    width: 100vw;
+    // position: relative;
+
+    .homePageSection1 {
+        // position: absolute;
+        top: 0;
+        background-image: url('../../assets/home-page-background-1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90vh;
+        width: 100vw;
+    }
 }
