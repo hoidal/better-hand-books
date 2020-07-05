@@ -1,6 +1,14 @@
 html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.content {
   min-height: 100vh;
-  position: relative;
+}
+
+.content-inside {
+  padding-bottom: 70px;
 }
 
 a {
