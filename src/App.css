@@ -1,14 +1,18 @@
 html, body {
   height: 100%;
-  margin: 0;
+  position: relative;
 }
 
-.content {
+.main-container {
   min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 10rem;
 }
 
-.content-inside {
-  padding-bottom: 70px;
+#content-container {
+
 }
 
 a {

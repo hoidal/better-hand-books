@@ -4,12 +4,10 @@ import styles from './home-page.module.scss';
 
 const HomePage = ({ history }) => (
     <div className={styles.homePage}>
-        <div role="presentational" className={styles.homePageSection1}>
-
-        </div>
-        <div style={{height: '100rem', width: '100rem'}}>
-
-        </div>
+        <section className={styles.headerImageContainer} />
+        <section className={styles.homeSection1}>
+            <h1>WHO WE ARE</h1>
+        </section>
     </div>
 );
 
