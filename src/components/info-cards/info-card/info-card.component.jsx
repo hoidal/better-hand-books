@@ -2,15 +2,11 @@ import React from 'react';
 
 import styles from './info-card.module.scss';
 
-import Paper from '@material-ui/core/Paper';
 
 const InfoCard = () => (
-    <Paper elevation={5}>
-        <div className={styles.card}>
-
-        </div>
-    </Paper>
-
+    <div className={styles.card}>
+        <h4>Title</h4>
+    </div>
 );
 
 export default InfoCard;

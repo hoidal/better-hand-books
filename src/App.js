@@ -11,16 +11,12 @@ import TakeActionPage from './pages/take-action-page/take-action-page.container.
 function App() {
   return (
     <div className="App">
-      <div className="main-container">
-        <Header />
-          <div id="content-container">
-            <Switch>
-              <Route exact path="/" component={HomePage} />
-              <Route path="/take-action" component={TakeActionPage} />
-            </Switch>
-          </div>
-        <Footer />
-      </div>
+      <Header />
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/take-action" component={TakeActionPage} />
+          </Switch>
+      <Footer />
     </div>
   );
 }

@@ -3,16 +3,12 @@ html, body {
   position: relative;
 }
 
-.main-container {
+.App {
   min-height: 100vh;
   overflow: hidden;
   display: block;
   position: relative;
   padding-bottom: 10rem;
-}
-
-#content-container {
-
 }
 
 a {
