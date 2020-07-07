@@ -5,8 +5,8 @@ import './App.css';
 
 import Header from './components/header/header.component.jsx';
 import Footer from './components/footer/footer.component.jsx';
-import HomePage from './pages/home-page/home-page.container';
-import TakeActionPage from './pages/take-action-page/take-action-page.container';
+import HomePage from './pages/home-page/homepage.container.jsx';
+import TakeActionPage from './pages/take-action-page/take-action-page.container.jsx';
 
 function App() {
   return (

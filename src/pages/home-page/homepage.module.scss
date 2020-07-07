@@ -1,0 +1,40 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .headerImageContainer {
+        display: flex;
+        flex-direction: column;
+
+        .image {
+            width: 100%;
+        }
+    }
+
+    .homeSection1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        height: 30rem;
+        font-size: 25px;
+
+        .infoCardContainer{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 2rem;
+
+            .infoCard {
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 20rem;
+                width: 20rem;
+                background: #33658A;
+            }
+        }
+    }
+}
