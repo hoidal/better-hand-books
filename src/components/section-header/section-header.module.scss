@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+
+    h2 {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .divider{
+        width: 5rem;
+        height: 2px;
+        background: #F7B733;
+    }
+}

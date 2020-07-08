@@ -1,0 +1,15 @@
+.container {
+    background: #33658A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .content {
+        margin: auto;
+        padding: 1rem;
+        width: 80%;
+        font-size: 17px;
+        line-height: 1.5;
+        color: white;
+    }
+}

@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './header.module.scss';
+import styles from './navbar.module.scss';
 
 import logo from '../../assets/bhb-logo.png';
 
 
-const Header = () => {
+const NavBar = () => {
     return (
-        <div className={styles.header}>
+        <div className={styles.navbar}>
             <div className={styles.logoContainer}>
                 <Link to="/">
-                    <img role="presentational" src={logo} className={styles.logo} />
+                    <img role="presentation" src={logo} className={styles.logo} alt="" />
                 </Link>
             </div>
             <div className={styles.options}>
@@ -34,4 +34,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default NavBar;

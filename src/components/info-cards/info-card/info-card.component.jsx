@@ -3,9 +3,10 @@ import React from 'react';
 import styles from './info-card.module.scss';
 
 
-const InfoCard = () => (
+const InfoCard = ({ title, iconUrl, textContent }) => (
     <div className={styles.card}>
-        <h4>Title</h4>
+        <h4>{title.toUpperCase()}</h4>
+        <p>{textContent}</p>
     </div>
 );
 

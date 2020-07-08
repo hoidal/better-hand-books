@@ -1,14 +1,14 @@
 import React from 'react';
 
-import InfoCard from '../info-card/info-card.component.jsx';
-
 import styles from './info-card-wrapper.module.scss';
 
-const InfoCards = () => (
+import InfoCard from '../info-card/info-card.component.jsx';
+
+const InfoCards = ({ cards }) => (
     <div className={styles.cardContainer}>
-        <InfoCard />
-        <InfoCard />
-        <InfoCard />
+        {cards.map(card => (
+            <InfoCard key={card.id} {...card} />
+        ))}
     </div>
 );
 
